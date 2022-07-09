@@ -1,0 +1,27 @@
+{
+  "name": "fwg",
+  "version": "1.0.15",
+  "description": "A Windows command line tool to block outbound connections for files within a directory.",
+  "main": "cli.js",
+  "keywords": [
+    "Windows",
+    "Firewall",
+    "Powershell"
+  ],
+  "bin": {
+    "fwg": "cli.js"
+  },
+  "author": "Raymond Wang",
+  "email": "me@waymondrang.com",
+  "url": "https://waymondrang.com",
+  "license": "MIT",
+  "homepage": "https://github.com/waymondrang/fwg#readme",
+  "bugs": {
+    "url": "https://github.com/waymondrang/fwg/issues",
+    "email": "issues@waymondrang.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waymondrang/fwg.git"
+  }
+}
