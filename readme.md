@@ -18,6 +18,20 @@ To use fwg in the terminal, install with the `-g` option
 npm install -g fwg
 ```
 
+#### Unauthorized Access Error
+
+If Powershell scripts are disabled on the system, running fwg may invoke an UnauthorizedAccess error. To modify the execution policy, run in the terminal
+
+```console
+powershell.exe -ExecutionPolicy Bypass
+```
+
+To reset the execution policy, run in the terminal
+
+```console
+Set-ExecutionPolicy -ExecutionPolicy Default
+```
+
 ## Usage
 
 _Command must be run with administrator privileges!_
