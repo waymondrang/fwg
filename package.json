@@ -1,6 +1,6 @@
 {
   "name": "fwg",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "A Windows command line tool to block outbound connections for files within a directory.",
   "main": "cli.js",
   "keywords": [
