@@ -20,13 +20,13 @@ npm install -g fwg
 
 #### Unauthorized Access Error
 
-If Powershell scripts are disabled on the system, running fwg may invoke an UnauthorizedAccess error. To modify the execution policy, run in the terminal
+If Powershell scripts are disabled on the system, running fwg may invoke an UnauthorizedAccess error. To modify the execution policy, run in PowerShell
 
 ```console
-powershell.exe -ExecutionPolicy Bypass
+Set-ExecutionPolicy -ExecutionPolicy Bypass
 ```
 
-To reset the execution policy, run in the terminal
+To reset the execution policy, run in PowerShell
 
 ```console
 Set-ExecutionPolicy -ExecutionPolicy Default
